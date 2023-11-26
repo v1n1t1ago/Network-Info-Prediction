@@ -1,0 +1,40 @@
+{% extends "layout/base.html" %}
+
+{% block body %}
+    {% comment %}
+    <!-- <h1>Network Connection Info</h1>
+    <ul class="list-group">
+        <li class="list-group-item">
+            <b>Download Speed:</b>
+            {{ data.download_speed|humanize_network }} </li>    
+        <li class="list-group-item">
+            <b>Upload Speed</b>
+            {{ data.upload_speed|humanize_network }} </li> 
+        <li class="list-group-item">
+            <b>Predicted Download Speed:</b>
+            {{ data.predictions_download|humanize_network }} </li>    
+        <li class="list-group-item">
+            <b>Predicted Upload Speed</b> 
+            {{ data.predictions_upload|humanize_network }}</li>    
+        <li class="list-group-item">        
+            <b>Signal Strength</b> 
+            {{ data.signal_strength }} dBm</li>
+        <li class="list-group-item">
+            <b>Frequência</b>
+            {{ data.frequency }} Ghz</li>
+        <li class="list-group-item">
+            <b>Channel</b>
+            {{ data.channel }}
+        </li>
+    </ul>
+    <button class="btn btn-primary" onclick="window.location.reload()" >Reload</button> -->
+    {% endcomment %}
+    <h1>test</h1>
+{% endblock %}
+
+{% block scripts %}
+    <script type="text/javascript">
+        console.log("hello world");
+
+    </script>
+{% endblock %}
